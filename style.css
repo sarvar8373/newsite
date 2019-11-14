@@ -36,6 +36,11 @@ body{
 	text-decoration: none;
 	size: 20px;
 }
+@media (min-width: 768px){
+.article {
+    margin: 1rem!important;
+}
+}
 .nav{
 	padding: 15px;
 	color:#999;
