@@ -66,6 +66,7 @@ body{
 	margin-right: auto;
 	text-align: center;
 	background-color: #f8f9fa!important;
+	height:350px;
 }
 .web1{
 	font-weight: 400!important;
@@ -101,9 +102,9 @@ p {
 .mobile{
 	position: absolute;
     right: 10%;
-    bottom: -0%;
+    bottom: -2%;
     width: 200px;
-    height: 370px;
+    height: 350px;
     background-color: rgb(7, 7, 7);
 	border-radius: 21px;
 	box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
@@ -121,9 +122,9 @@ p {
 .mobile1{
 	position: absolute;
     left: 8%;
-    bottom: 0%;
+    bottom: -0%;
     width: 200px;
-    height: 370px;
+    height: 330px;
     background-color: #e5e5e5;
     border-radius: 21px;
     -webkit-transform: rotate(30deg);
