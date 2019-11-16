@@ -41,6 +41,28 @@ body{
 	color:#999;
 	text-decoration: none;
 }
+@media screen and (max-width: 1000px) {
+	.content{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	.nav { 
+		display:none;
+	}
+	.mobile{
+		display: none;
+	}
+	.mobile1{
+		display: none;
+	}
+	.text{
+		position: relative;
+		top: -100px;
+	}
+
+}
+
 .icon:hover{
 	background-color: gray;
 	color: white;
@@ -65,23 +87,39 @@ body{
 	height: 500px;
 	margin: 10px;
 }
+@media screen and (max-width: 1000px){
+.article{
+	height: 300px;
+}
+}
 .web1{
-	font-weight: 400!important;
+	font-weight: 400;
 	font-size: 3.5rem;
 	margin-top: 0;
+	text-align: center;
 }
-p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-	margin-inline-end: 0px;
+
+.web2{
+	display: none;
+}
+.web3{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 	padding-left: 400px;
 	padding-right: 400px;
+	padding-bottom: 40px;
+	padding-top: 20px;
 }
-.web2{
-	font-weight: 400!important;
-	font-size: 1.25rem;
+@media screen and (max-width: 1000px) {
+	.web3{display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 40px;
+	padding-top: 20px;
+}
 }
 .text-button{
 	display: inline-block;
@@ -143,6 +181,18 @@ p {
 	padding: 10px;
 	height: 500px;
 }
+@media screen and (max-width: 1000px){
+.container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content:space-around;
+	width: 100%;
+	padding: 10px;
+	height: 100%;
+}
+}
+
 .text3{
 	position: relative;
 	text-align: center;
@@ -176,6 +226,12 @@ p {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+}
+@media screen and (max-width: 1000px){
+	.footer1{
+		position: relative;
+		top:300px;
+	}
 }
 .footer2{
 	display: flex;
